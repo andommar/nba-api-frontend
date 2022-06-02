@@ -32,6 +32,12 @@ const routes = [
     name: 'player-page',
     component: () => import(/* webpackChunkName: "about" */ '../views/PlayerView.vue'),
 
+  },
+  {
+    path: '/news',
+    name: 'news',
+    component: () => import(/* webpackChunkName: "about" */ '../views/NewsView.vue'),
+
   }
 ]
 
